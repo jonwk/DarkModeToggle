@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/DarkModeToggle/static/css/main.7457f698.chunk.css",
+    "main.js": "/DarkModeToggle/static/js/main.611c73e0.chunk.js",
+    "main.js.map": "/DarkModeToggle/static/js/main.611c73e0.chunk.js.map",
+    "runtime-main.js": "/DarkModeToggle/static/js/runtime-main.513bd4f2.js",
+    "runtime-main.js.map": "/DarkModeToggle/static/js/runtime-main.513bd4f2.js.map",
+    "static/js/2.c48f432f.chunk.js": "/DarkModeToggle/static/js/2.c48f432f.chunk.js",
+    "static/js/2.c48f432f.chunk.js.map": "/DarkModeToggle/static/js/2.c48f432f.chunk.js.map",
+    "index.html": "/DarkModeToggle/index.html",
+    "static/css/main.7457f698.chunk.css.map": "/DarkModeToggle/static/css/main.7457f698.chunk.css.map",
+    "static/js/2.c48f432f.chunk.js.LICENSE.txt": "/DarkModeToggle/static/js/2.c48f432f.chunk.js.LICENSE.txt",
+    "static/media/ReactLogo.21a83e0b.svg": "/DarkModeToggle/static/media/ReactLogo.21a83e0b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.513bd4f2.js",
+    "static/js/2.c48f432f.chunk.js",
+    "static/css/main.7457f698.chunk.css",
+    "static/js/main.611c73e0.chunk.js"
+  ]
+}
