@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body {
+  position: relative
+}
 
 .App {
   text-align: center;

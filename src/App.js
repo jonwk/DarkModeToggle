@@ -2,17 +2,27 @@ import "./index.css";
 import ReactLogo from "./ReactLogo.svg";
 import React from "react";
 
-
 // import ToggleButton from "./components/ToggleButton";
 
+function getCurrentTheme() {
+  const cb = document.getElementById("toggle");
+  return cb.checked ? "dark" : "light";
+}
+
+function changeIcon() {
+  const faviconTag = document.getElementById("favicon");
+  // console.log(faviconTag);
+  const CurrentTheme = getCurrentTheme();
+  // console.log(CurrentTheme);
+  faviconTag.href = (CurrentTheme === "dark") ? "./MoonLogo.png" :"./SunLogo.png";
+  // console.log(faviconTag);
+}
 
 function switchTheme() {
   var element = document.body;
   element.classList.toggle("dark");
+  changeIcon();
 }
-
-// localStorage.theme = "light";
-// getTheme();
 
 function App() {
   const logoViewBoxDimensions = "0 0 248 31";
