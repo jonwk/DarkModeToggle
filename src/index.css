@@ -20,25 +20,9 @@ body {
   pointer-events: none;
 }
 
-.css-184keb2, [data-css-184keb2] {
-  color: inherit;
-  margin-left: 10px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-
-
 input:checked ~ .dot {
   transform: translateX(100%);
-  /* background-color: #48bb78; */
 }
-
-/* input:unchecked ~ .dot {
-  transform: translateX(100%);
-  background-color: #48bb78;
-} */
 
 input:checked ~ .block {
   background-color: black;
