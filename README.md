@@ -8,6 +8,6 @@
 
 Me trying to get my head around implementing darkmode, using React and TailwindCSS - [Live-Demo](http://jonwk.github.io/DarkModeToggle/).
 
-Even got Favicon to change 😎
+Even got Favicon to change and got dynamic svg icons 😎
 
 Used `npx create-react-app` to create react app
